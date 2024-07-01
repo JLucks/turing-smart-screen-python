@@ -1,11 +1,10 @@
----
 config:
   # Configuration values to set up basic communication
   # Set your COM port e.g. COM3 for Windows, /dev/ttyACM0 for Linux...
   # Use AUTO for COM port auto-discovery (may not work on every setup)
   # COM_PORT: "/dev/ttyACM0"
   # COM_PORT: "COM3"
-  COM_PORT: "AUTO"
+  COM_PORT: AUTO
 
   # Theme to use (located in res/themes)
   # Use the name of the folder as value
@@ -23,8 +22,8 @@ config:
   # Linux/MacOS interfaces are named "eth0", "wlan0", "wlp1s0", "enp2s0"...
   # For Windows use the interfaces pretty name: "Ethernet 2", "Wi-Fi", ...
   # Leave the fields empty if the card does not exist on your setup
-  ETH: "" # Ethernet Card
-  WLO: "" # Wi-Fi Card
+  ETH: enp0s31f6 # Ethernet Card
+  WLO: wlp1s0 # Wi-Fi Card
 
   # CPU fan
   # For Linux/MacOS platforms, the CPU fan is amongst all fan sensors gathered from the motherboard chipset

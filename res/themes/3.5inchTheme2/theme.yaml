@@ -207,7 +207,7 @@ STATS:
     DAY:
       TEXT:
         SHOW: True
-        X: 155
+        X: 145
         Y: 6
         FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
         FONT_SIZE: 10
